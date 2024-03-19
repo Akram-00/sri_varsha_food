@@ -368,6 +368,39 @@ template {
   display: none !important;
 }
 
+
+.navlink-animate li a:after,
+.navlink-animate li a:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  display: block;
+  height: 1px;
+  transition: all 0.3s ease;
+  margin-top: 2px;
+}
+
+.navlink-animate li a:after {
+  bottom: 25%;
+}
+
+.navlink-animate li a:before {
+  top: 25%;
+}
+
+.navlink-animate li a:hover::after {
+  width: 5%;
+  height: 1px;
+  bottom: 25%;
+  background-color: rgb(49, 255, 49);
+}
+.navlink-animate li a:hover::before {
+  width: 5%;
+  height: 1px;
+  top: 25%;
+  background-color: rgb(49, 255, 49);
+}
+
 h1,
 h2,
 h3,
