@@ -6,6 +6,7 @@
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
 
 :root {
   --blue: #007bff;
@@ -607,7 +608,7 @@ pre code {
 
 
 .qualitysection001 {
-  background-image: url('../images/quality-section/bgimg4.jpg'); 
+  background-image: url('../images/greenveggies.png'); 
   background-size: cover;
   background-position: center;
   padding: 100px 50px; /* Increased top and bottom padding */
@@ -618,15 +619,15 @@ pre code {
 }
 
 .qualitysection001 .left-content {
-  width: 40%;
-}
-
-.qualitysection001 .right-content {
   width: 50%;
 }
 
+.qualitysection001 .right-content {
+  width: 40%;
+}
+
 .qualitysection001 .heading {
-  padding-bottom: 50%;
+  padding-bottom: 4%;
   font-family: "Salsa", cursive;
   font-weight: 800;
   font-style: normal;
@@ -641,7 +642,7 @@ pre code {
 .qualitysection001 #know-more-btn {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #007bff;
+  background-color: #2da800;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -649,9 +650,18 @@ pre code {
 }
 
 .qualitysection001 #know-more-btn:hover {
-  background-color: #0056b3;
+  background-color: #134800;
 }
 
+.qualitysection001 .logos {
+  margin-top:2rem;
+}
+
+.qualitysection001 .logos img{
+  object-fit: contain;
+  width: 30%;
+  aspect-ratio: 4 / 3;
+}
 .qualitysection002 {
   background-color: #fff;
   padding: 50px 0;
@@ -726,7 +736,7 @@ pre code {
 }
 
 .certificationSection .left-content {
-  width: 40%;
+  width: 45%;
 }
 
 .certificationSection .left-content h1 {
@@ -735,14 +745,14 @@ pre code {
 }
 
 .certificationSection .left-content p {
-  font-size: 18px;
-  margin-bottom: 20px;
+  font-size: 16px;
+  margin-bottom: 18px;
 }
 
 .certificationSection .left-content #explore-btn {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #007bff;
+    background-color: #2da800;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -750,7 +760,7 @@ pre code {
 }
 
 .certificationSection .left-content #explore-btn:hover {
-  background-color: #0056b3;
+    background-color: #134800;
 }
 
 .certificationSection .right-content {
@@ -764,11 +774,20 @@ pre code {
 }
 
 .certificationSection .certification-grid img {
-  width: 100%;
+  width: 50%;
   max-width: 100%;
   height: auto;
 }
 
+.our-products-buttons{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.btn-width{
+  width:200px
+}
 
 .container {
   width: 100%;
@@ -11831,7 +11850,7 @@ h5,
   padding-bottom: 1.5rem;
   padding-left: 20px;
   padding-right: 20px;
-  font-weight: 400;
+  font-weight: bold;
   color: #000000;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -12293,7 +12312,7 @@ h5,
 }
 
 .owl-carousel.home-slider .slider-item .slider-text .subheading {
-  color: #000000;
+  color: white;
   font-weight: 300;
   font-size: 12px;
   letter-spacing: 4px;
