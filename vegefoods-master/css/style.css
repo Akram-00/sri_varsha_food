@@ -605,6 +605,171 @@ pre code {
   overflow-y: scroll;
 }
 
+
+.qualitysection001 {
+  background-image: url('../images/quality-section/bgimg4.jpg'); 
+  background-size: cover;
+  background-position: center;
+  padding: 100px 50px; /* Increased top and bottom padding */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.qualitysection001 .left-content {
+  width: 40%;
+}
+
+.qualitysection001 .right-content {
+  width: 50%;
+}
+
+.qualitysection001 .heading {
+  padding-bottom: 50%;
+  font-family: "Salsa", cursive;
+  font-weight: 800;
+  font-style: normal;
+  font-size: xx-large;
+  color: #f8faf9;
+}
+
+.qualitysection001 p {
+  margin-bottom: 10px;
+}
+
+.qualitysection001 #know-more-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.qualitysection001 #know-more-btn:hover {
+  background-color: #0056b3;
+}
+
+.qualitysection002 {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align:center;
+}
+
+.qualitysection002 .tittle {
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  color: #0D9276;
+  padding: 3%;
+}
+
+.qualitysection002 .content {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.qualitysection002 .logos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 3%;
+  padding-top: 5%;
+}
+
+.qualitysection002 .logos img {
+  max-width: 70px;
+}
+
+.qualitysection002 .logos img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.qualitysection002 #view-all-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0D9276;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 40vh;
+}
+
+.qualitysection002 #view-all-btn:hover {
+  background-color: #2daf49;
+}
+
+@media only screen and (max-width: 600px) {
+  .qualitysection002 .tittle {
+    font-size: x-large;
+  }
+  .qualitysection002 .logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .qualitysection002 .logos img {
+    margin: 10px;
+  }
+}
+
+.certificationSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.certificationSection .left-content {
+  width: 40%;
+}
+
+.certificationSection .left-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.certificationSection .left-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.certificationSection .left-content #explore-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.certificationSection .left-content #explore-btn:hover {
+  background-color: #0056b3;
+}
+
+.certificationSection .right-content {
+  width: 55%;
+}
+
+.certificationSection .certification-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.certificationSection .certification-grid img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+
 .container {
   width: 100%;
   padding-right: 15px;
